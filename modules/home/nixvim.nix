@@ -18,6 +18,7 @@
 
     opts = {
       number = true;
+      relativenumber = true;
       ignorecase = true;
       smartcase = true;
       expandtab = true;
