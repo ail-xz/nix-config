@@ -52,6 +52,11 @@
 
   home.packages = [ pkgs.zsh-completions ];
 
+  programs.direnv = {
+    enable = true;
+    nix-direnv.enable = true;
+  };
+
   programs.starship = {
     enable = true;
     presets = [ "tokyo-night" ];
