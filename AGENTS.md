@@ -60,3 +60,4 @@
 - 1つのコミットに様々な変更を詰め込まず、種別にコミットを分ける
 - メッセージは `update: 〜を追加` のように、`add` / `update` / `fix` / `remove` の接頭辞に日本語の要約を続ける
 - 複雑になるため、`hotfix` / `change` / `clean` / `disable` / `upgrade` / `revert` など、上記で指定していない接頭辞は使用しない
+- push はユーザーが行う
