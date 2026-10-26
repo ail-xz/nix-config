@@ -167,6 +167,10 @@ in
             "launcher"
           ];
         };
+        # noctalia にはウィンドウ単位の撮影がないため niri 組み込みを使う
+        "Print".screenshot = { };
+        "Ctrl+Print".screenshot-screen = { };
+        "Shift+Print".screenshot-window = { };
         "Ctrl+Alt+L" = {
           _props.hotkey-overlay-title = "Lock the Screen: noctalia";
           spawn = [
