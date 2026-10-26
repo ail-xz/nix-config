@@ -1,4 +1,9 @@
-{ config, flake, ... }:
+{
+  config,
+  flake,
+  pkgs,
+  ...
+}:
 let
   primaryUser = config.my.primaryUser;
   userCursor = config.home-manager.users.${primaryUser}.home.pointerCursor;
@@ -18,6 +23,7 @@ in
   };
 
   services.gvfs.enable = true;
+  services.dbus.packages = [ pkgs.nemo-preview ];
 
   services.displayManager.noctalia-greeter = {
     enable = true;
