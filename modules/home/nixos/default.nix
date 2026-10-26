@@ -18,6 +18,32 @@ in
     yubioath-flutter
     onlyoffice-desktopeditors
     obs-studio
-    nemo
+    nemo-with-extensions
+    nemo-preview
+    file-roller
+    gnome-disk-utility
+    unar
+    cinnamon-desktop
   ];
+
+  dconf.settings = {
+    "org/nemo/preferences".default-folder-viewer = "list-view";
+    "org/cinnamon/desktop/applications/terminal" = {
+      exec = "alacritty";
+      exec-arg = "";
+    };
+  };
+
+  xdg.dataFile."nemo/actions/unar.nemo_action".text = ''
+    [Nemo Action]
+    Active=true
+    Name=Extract here with unar
+    Comment=Extract with unar, auto-detecting the filename encoding
+    Exec=unar -q -o "%P" %F
+    Selection=notnone
+    Extensions=zip;
+    Quote=double
+    Dependencies=unar;
+    Icon-Name=package-x-generic
+  '';
 }
