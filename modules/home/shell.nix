@@ -41,6 +41,7 @@
       ls = "eza -la";
       rm = "rm -i";
       v = "nvim";
+      b = "bat";
       ex = "exit";
       neofetch = "fastfetch";
       rebuild = "nh ${
