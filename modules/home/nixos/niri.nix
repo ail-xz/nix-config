@@ -154,6 +154,10 @@ in
             "${config.xdg.configHome}/mozilla/firefox/POzqMC0L.Profile 1"
           ];
         };
+        "Mod+Slash" = {
+          _props.hotkey-overlay-title = "Open Files: nemo";
+          spawn = [ "nemo" ];
+        };
         "Mod+Space" = {
           _props.hotkey-overlay-title = "Run an Application: noctalia";
           spawn = [
