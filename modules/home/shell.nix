@@ -32,7 +32,6 @@
       "AUTO_PARAM_SLASH"
       "AUTO_MENU"
       "AUTO_LIST"
-      "CORRECT"
       "AUTO_PUSHD"
       "PUSHD_IGNORE_DUPS"
     ];
