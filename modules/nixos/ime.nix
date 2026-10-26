@@ -1,10 +1,10 @@
-{ pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
   i18n.inputMethod = {
     enable = true;
     type = "fcitx5";
     fcitx5 = {
-      addons = [ inputs.nixpkgs-stable.legacyPackages.${pkgs.stdenv.hostPlatform.system}.fcitx5-mozc-ut ];
+      addons = [ pkgs.fcitx5-mozc-ut ];
       waylandFrontend = true;
       settings = {
         globalOptions = {

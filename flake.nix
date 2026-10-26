@@ -3,8 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-unstable";
-    # unstable の Qt 6.12 で mozc 2.30 のビルドが壊れるため mozc だけ stable から取る
-    nixpkgs-stable.url = "github:NixOS/nixpkgs?ref=nixos-26.05";
 
     blueprint.url = "github:numtide/blueprint";
     blueprint.inputs.nixpkgs.follows = "nixpkgs";
@@ -32,7 +30,7 @@
     inputs:
     inputs.blueprint {
       inherit inputs;
-      # 既定には nixpkgs 26.11 で非対応になった x86_64-darwin が含まれ、--all-systems の評価が失敗する
+      # x86_64-darwin があると評価が失敗する
       systems = [
         "x86_64-linux"
         "aarch64-darwin"
