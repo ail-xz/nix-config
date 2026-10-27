@@ -1,0 +1,248 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.11.3",
+  "schemes" : [
+    {
+      "if" : {
+        "app" : "com.apple.dock",
+        "device" : {
+          "category" : "mouse"
+        }
+      },
+      "scrolling" : {
+        "reverse" : {
+          "vertical" : false
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd030",
+          "productName" : "Keychron Link ",
+          "vendorID" : "0x3434"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.68,
+        "disableAcceleration" : true,
+        "redirectsToScroll" : false
+      },
+      "scrolling" : {
+        "acceleration" : 1,
+        "distance" : {
+          "horizontal" : 4,
+          "vertical" : 3
+        },
+        "modifiers" : {
+          "vertical" : {
+            "option" : {
+              "scale" : 2.5,
+              "type" : "changeSpeed"
+            }
+          }
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "speed" : 0
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.parallels.desktop.console",
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd030",
+          "productName" : "Keychron Link ",
+          "vendorID" : "0x3434"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.moonsworth.client",
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd030",
+          "productName" : "Keychron Link ",
+          "vendorID" : "0x3434"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.68,
+        "disableAcceleration" : true
+      }
+    },
+    {
+      "buttons" : {
+        "mappings" : [
+
+        ],
+        "switchPrimaryButtonAndSecondaryButtons" : false,
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd030",
+          "productName" : "Keychron Link ",
+          "vendorID" : "0x3434"
+        },
+        "processPath" : "\/Users\/ail\/.lunarclient\/jre\/558a15eabb214bf8845d7f0993a02d9cc101324f\/zulu17.34.19-ca-jre17.0.3-macosx_aarch64\/zulu-17.jre\/Contents\/Home\/bin\/java"
+      },
+      "pointer" : {
+        "acceleration" : 0.68
+      }
+    },
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xd036",
+          "productName" : "Keychron M3 mini",
+          "serialNumber" : "SN1234567890",
+          "vendorID" : "0x3434"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.62,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 4
+        },
+        "modifiers" : {
+          "vertical" : {
+            "option" : {
+              "scale" : 3,
+              "type" : "changeSpeed"
+            }
+          }
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "universalBackForward" : true
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xf58a",
+          "productName" : "VXE NordicMouse 1K Dongle",
+          "vendorID" : "0x3554"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.68,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "modifiers" : {
+          "vertical" : {
+            "option" : {
+              "scale" : 2.5,
+              "type" : "changeSpeed"
+            }
+          }
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x144",
+          "productName" : "ELECOM BlueLED Mouse",
+          "vendorID" : "0x56e"
+        }
+      },
+      "pointer" : {
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "smoothed" : {
+          "vertical" : {
+            "enabled" : false
+          }
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "com.apple.dock",
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x144",
+          "productName" : "ELECOM BlueLED Mouse",
+          "vendorID" : "0x56e"
+        }
+      },
+      "scrolling" : {
+        "modifiers" : {
+          "vertical" : {
+            "option" : {
+              "scale" : 5,
+              "type" : "changeSpeed"
+            }
+          }
+        },
+        "reverse" : {
+          "vertical" : true
+        }
+      }
+    }
+  ]
+}

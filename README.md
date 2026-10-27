@@ -37,7 +37,7 @@ blueprint がディレクトリ構成から flake の output を作る
 ## 初回
 
 - `my.primaryUser` と同じ名前のユーザーで実行する
-- `~/nix` 以外に置く場合はホストの home 設定で `programs.nh.flake` を上書きする
+- `~/nix` 以外に置く場合はホストの home 設定で `programs.nh.flake` を上書きする (macOS のアプリ設定のリンク先もこれに従う)
 - `<hostname>` は `hosts/` 配下のディレクトリ名。新しいホストは `hosts/<hostname>/` を作って `git add` する (flake は git 管理外のファイルを無視する)
 
 ### NixOS
@@ -62,6 +62,8 @@ cd ~/nix
 sudo nix --extra-experimental-features "nix-command flakes" \
   run nix-darwin/master#darwin-rebuild -- switch --flake .#<hostname>
 ```
+
+LinearMouse と Snapzy の設定 (`modules/home/darwin/linearmouse/`、`modules/home/darwin/snapzy/`) は、リポジトリ内のディレクトリを直接リンクしている。アプリで設定を変えるとこのファイルが書き換わり、git の差分になる
 
 ## 適用
 
