@@ -13,6 +13,7 @@ in
     flake.darwinModules.packages
     flake.darwinModules.homebrew
     flake.darwinModules.defaults
+    flake.darwinModules.bettersnaptool
   ];
 
   users.users.${primaryUser}.home = "/Users/${primaryUser}";
