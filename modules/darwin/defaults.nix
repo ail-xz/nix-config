@@ -76,11 +76,18 @@
       ShowDate = 1;
       ShowSeconds = true;
     };
+    controlcenter.BatteryShowPercentage = true;
     CustomUserPreferences = {
       NSGlobalDomain = {
         TSMLanguageIndicatorEnabled = false;
+        NSGlassTintAmount = 0.5;
         "com.apple.mouse.linear" = true;
         "com.apple.trackpad.scrolling" = 0.3125;
+      };
+      "com.apple.dock".enterMissionControlByTopWindowDrag = false;
+      "com.apple.Spotlight" = {
+        PasteboardHistoryEnabled = true;
+        PasteboardHistoryTimeout = 604800;
       };
       "com.apple.CrashReporter".DialogType = "none";
       "com.apple.screencapture".name = "";
