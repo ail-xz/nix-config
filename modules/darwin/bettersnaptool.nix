@@ -42,7 +42,6 @@ in
     BSTIncreaseSnappingArea = false;
     BSTSequoiaUseClassicSnapping = 0;
     BSTDuplicateMenubarMenu = false;
-    # ⌃⌥⌘ + 矢印 / Space と ⌃⌥⇧⌘ + Space。未設定の ID もアプリの状態に合わせて書く
     registeredHotkeys = {
       "0" = {
         keyCode = 126;
