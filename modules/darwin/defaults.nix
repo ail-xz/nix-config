@@ -85,6 +85,19 @@
         "com.apple.trackpad.scrolling" = 0.3125;
       };
       "com.apple.dock".enterMissionControlByTopWindowDrag = false;
+      "com.apple.controlcenter" = {
+        "NSStatusItem VisibleCC AirDrop" = true;
+        "NSStatusItem VisibleCC Battery" = true;
+        "NSStatusItem VisibleCC BentoBox-0" = true;
+        "NSStatusItem VisibleCC Bluetooth" = true;
+        "NSStatusItem VisibleCC Clock" = true;
+        "NSStatusItem VisibleCC Display" = true;
+        "NSStatusItem VisibleCC FocusModes" = true;
+        "NSStatusItem VisibleCC KeyboardBrightness" = true;
+        "NSStatusItem VisibleCC Sound" = true;
+        "NSStatusItem VisibleCC UserSwitcher" = true;
+        "NSStatusItem VisibleCC WiFi" = true;
+      };
       "com.apple.Spotlight" = {
         PasteboardHistoryEnabled = true;
         PasteboardHistoryTimeout = 604800;
