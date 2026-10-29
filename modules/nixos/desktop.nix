@@ -1,7 +1,6 @@
 {
   config,
   flake,
-  pkgs,
   ...
 }:
 let
@@ -23,7 +22,6 @@ in
   };
 
   services.gvfs.enable = true;
-  services.dbus.packages = [ pkgs.nemo-preview ];
 
   services.displayManager.noctalia-greeter = {
     enable = true;

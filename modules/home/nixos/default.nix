@@ -14,16 +14,15 @@ in
     (microsoft-edge.override { commandLineArgs = chromiumArgs; })
     termius
     vscode
+    obs-studio
     bitwarden-desktop
     yubioath-flutter
     onlyoffice-desktopeditors
-    obs-studio
+    bottles
     nemo-with-extensions
-    nemo-preview
-    file-roller
     gnome-disk-utility
+    file-roller
     unar
-    cinnamon-desktop
   ];
 
   dconf.settings = {
