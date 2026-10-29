@@ -81,6 +81,8 @@ nix flake update nixpkgs  # 特定の input
 rebuild
 ```
 
+`packages/man-pages-ja` は input ではないので、新しいリリースは `version` と `hash` を手で書き換える
+
 更新後に問題が出たら lock を戻して `rebuild` する
 
 - コミット前: `git checkout flake.lock`
