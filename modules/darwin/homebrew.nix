@@ -47,7 +47,6 @@
       "altserver"
 
       "lunar-client"
-      "minecraft"
       "modrinth"
 
       "obs"
