@@ -2,7 +2,6 @@
 {
   system.defaults = {
     hitoolbox.AppleFnUsageType = "Do Nothing";
-    ".GlobalPreferences"."com.apple.mouse.scaling" = -1.0;
     NSGlobalDomain = {
       AppleInterfaceStyle = "Dark";
       AppleIconAppearanceTheme = "RegularDark";
@@ -17,6 +16,38 @@
       show-recents = false;
       mru-spaces = false;
       wvous-br-corner = 1;
+      persistent-apps = [
+        "/Applications/Google Chrome.app"
+        "/Applications/Microsoft Edge.app"
+        "/Applications/Microsoft Outlook.app"
+        "/Applications/vesktop.app"
+        "/Applications/Slack.app"
+        "/Applications/Ghostty.app"
+        "/Applications/Termius.app"
+        "/Applications/Nani.app"
+        "/Applications/Claude.app"
+        "/Applications/ChatGPT.app"
+        "/Applications/Modrinth App.app"
+        "/Applications/CotEditor.app"
+        "/Applications/Visual Studio Code.app"
+        "/Applications/Spotify.app"
+        "/System/Applications/Music.app"
+        "/System/Applications/Messages.app"
+        "/System/Applications/Phone.app"
+        "/Applications/Bitwarden.app"
+        "/Applications/Ente Auth.app"
+        "/Applications/LocalSend.app"
+        "/System/Applications/App Store.app"
+        "/System/Applications/Utilities/Activity Monitor.app"
+        "/System/Applications/System Settings.app"
+        "/Applications/FineTune.app"
+      ];
+      persistent-others = [ ];
+    };
+    trackpad = {
+      FirstClickThreshold = 0;
+      SecondClickThreshold = 0;
+      ActuationStrength = 0;
     };
     WindowManager = {
       EnableStandardClickToShowDesktop = false;
@@ -46,6 +77,11 @@
       ShowSeconds = true;
     };
     CustomUserPreferences = {
+      NSGlobalDomain = {
+        TSMLanguageIndicatorEnabled = false;
+        "com.apple.mouse.linear" = true;
+        "com.apple.trackpad.scrolling" = 0.3125;
+      };
       "com.apple.CrashReporter".DialogType = "none";
       "com.apple.screencapture".name = "";
       "com.apple.desktopservices" = {
