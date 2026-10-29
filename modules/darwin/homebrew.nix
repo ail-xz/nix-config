@@ -51,6 +51,7 @@
 
       "obs"
 
+      "pictogram"
       "appcleaner"
       "keyboardcleantool"
       "mx-power-gadget"
