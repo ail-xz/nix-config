@@ -17,8 +17,6 @@ in
     obs-studio
     bitwarden-desktop
     yubioath-flutter
-    onlyoffice-desktopeditors
-    bottles
     nemo-with-extensions
     gnome-disk-utility
     file-roller
