@@ -20,7 +20,6 @@
   programs.yubikey-manager.enable = true;
   services.tailscale.enable = true;
   services.tailscale.extraSetFlags = [ "--operator=${config.my.primaryUser}" ];
-  services.flatpak.enable = true;
 
   services.timesyncd = {
     servers = [ "time.cloudflare.com" ];
