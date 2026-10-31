@@ -32,6 +32,7 @@
       "spotify"
 
       "microsoft-office"
+      "obsidian"
 
       "adguard-vpn"
       "bitwarden"
@@ -68,14 +69,15 @@
       "stats"
       "keka"
       "kekaexternalhelper"
+      "qlmarkdown"
     ];
 
     masApps = {
-      # "LINE" = 539883307;
-      # "BetterSnapTool" = 417375580;
-      # "AmorphousDiskMark" = 1168254295;
-      # "Blackmagic Disk Speed Test" = 425264550;
-      # "Speedtest" = 1153157709;
+      "LINE" = 539883307;
+      "BetterSnapTool" = 417375580;
+      "AmorphousDiskMark" = 1168254295;
+      "Blackmagic Disk Speed Test" = 425264550;
+      "Speedtest" = 1153157709;
     };
 
     brews = [
