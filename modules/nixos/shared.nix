@@ -42,6 +42,7 @@
       "wheel"
       "networkmanager"
       "video"
+      "dialout"
     ];
     shell = pkgs.zsh;
   };

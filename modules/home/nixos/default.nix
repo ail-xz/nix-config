@@ -21,6 +21,7 @@ in
     gnome-disk-utility
     file-roller
     unar
+    tio
   ];
 
   dconf.settings = {
