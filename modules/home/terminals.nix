@@ -58,7 +58,7 @@ in
     settings = {
       title = "Ghostty";
       theme = "Brogrammer";
-      font-size = 10;
+      font-size = 16;
       font-family = terminalFont;
       font-thicken = false;
       background-opacity = 0.9;
