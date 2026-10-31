@@ -33,6 +33,7 @@ let
       "$HOME/.config/fcitx5"
     ];
     env = {
+      CLAUDE_CODE_OAUTH_TOKEN = "$CLAUDE_CODE_OAUTH_TOKEN";
       CLAUDE_CONFIG_DIR = "$HOME/.claude";
       NIX_CONFIG = "experimental-features = nix-command flakes";
     };
