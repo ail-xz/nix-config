@@ -12,8 +12,8 @@ in
   home.packages = with pkgs; [
     (google-chrome.override { commandLineArgs = chromiumArgs; })
     (microsoft-edge.override { commandLineArgs = chromiumArgs; })
+    (vscode.override { commandLineArgs = chromiumArgs; })
     termius
-    vscode
     obs-studio
     bitwarden-desktop
     yubioath-flutter
