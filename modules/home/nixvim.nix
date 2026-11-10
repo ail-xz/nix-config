@@ -63,6 +63,7 @@
       gitsigns.enable = true;
       nvim-autopairs.enable = true;
       render-markdown.enable = true;
+      tiny-inline-diagnostic.enable = true;
 
       treesitter = {
         enable = true;
@@ -122,7 +123,8 @@
       ];
     };
 
-    diagnostic.settings.virtual_text = true;
+    # tiny-inline-diagnostic と二重表示になるため無効化
+    diagnostic.settings.virtual_text = false;
 
     extraPackages = [ pkgs.nixfmt ];
   };
