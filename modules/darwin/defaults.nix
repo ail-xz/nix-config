@@ -12,7 +12,7 @@
       "com.apple.trackpad.scaling" = 2.0;
     };
     dock = {
-      tilesize = 42;
+      tilesize = 36;
       show-recents = false;
       mru-spaces = false;
       wvous-br-corner = 1;
