@@ -24,6 +24,7 @@
       "discord@ptb"
       "discord@canary"
       "discord@development"
+      "swiftcord"
       "vesktop"
       "slack"
       "zoom"
