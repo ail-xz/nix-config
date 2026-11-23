@@ -15,6 +15,8 @@
 
     # 評価時の警告を無くす
     nixpkgs.source = inputs.nixpkgs;
+    # 独自の pkgs を作るため flake の allowUnfree が効かない
+    nixpkgs.config.allowUnfree = true;
 
     opts = {
       number = true;
@@ -94,6 +96,11 @@
 
       lspconfig.enable = true;
       blink-cmp.enable = true;
+
+      copilot-lua = {
+        enable = true;
+        settings.suggestion.auto_trigger = true;
+      };
     };
 
     lsp = {
