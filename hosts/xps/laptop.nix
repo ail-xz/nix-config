@@ -32,7 +32,7 @@
   services.power-profiles-daemon.enable = true;
   services.upower.enable = true;
 
-  time.hardwareClockInLocalTime = true;
+  time.hardwareClockInLocalTime = false;
 
   services.logind.settings.Login = {
     HandleLidSwitch = "suspend";
