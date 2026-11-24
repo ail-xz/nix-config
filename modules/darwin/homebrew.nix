@@ -4,8 +4,10 @@
     enableZshIntegration = true;
 
     casks = [
+      "t3-code"
       "chatgpt"
       "claude"
+      "antigravity"
       "google-gemini"
       "lm-studio"
 
